@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1.5dp"
+    >
+    <ImageView
+        android:src="@mipmap/misrutas"
+        android:id="@+id/imagenMiRuta_adaptadorMisRutas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:text="Nombre especifico de la ruta"
+        android:id="@+id/textNombreRuta_AdaptadorMisRutas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/imagenMiRuta_adaptadorMisRutas"
+        android:layout_margin="5dp"
+        android:padding="1dp"
+        android:gravity="top|left"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>

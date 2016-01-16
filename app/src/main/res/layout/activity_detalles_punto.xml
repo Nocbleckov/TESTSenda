@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#cccccc"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sip.com.senda.activities.DetallesPuntoActivity"
+    android:background="#cccccc"
+    >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/header_DetallesPunto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#919191"
+        >
+        <TextView
+            android:text="2DA PRIVADA JOSE REYES MARTINEZ 111, Aguascalientes, Aguascalientes, México"
+            android:id="@+id/textDireccionCompleta_DetallesPunto"
+            android:gravity="right"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/imageMarcador_DetallesPunto"
+            android:textColor="#e6e6e6"
+            />
+        <ImageView
+            android:src="@mipmap/marcador"
+            android:id="@+id/imageMarcador_DetallesPunto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:text="Calle: "
+        android:id="@+id/labelNumeroCalle_DetallesPunto"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/header_DetallesPunto"
+        />
+
+    <TextView
+        android:text="Numero,Calle"
+        android:textSize="18sp"
+        android:id="@+id/textNumeroCalle_DetallesPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelNumeroCalle_DetallesPunto"
+        android:layout_margin="5dp"
+        />
+
+
+    <TextView
+        android:text="Colonia: "
+        android:id="@+id/labelColonia_DetallesPunto"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textNumeroCalle_DetallesPunto"
+        />
+
+    <TextView
+        android:text="Colonia"
+        android:textSize="18sp"
+        android:id="@+id/textColonia_DetallesPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelColonia_DetallesPunto"
+        android:layout_margin="5dp"
+        />
+
+
+    <TextView
+        android:text="Localidad: "
+        android:id="@+id/labelLocalidad_DetallesPunto"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textColonia_DetallesPunto"
+        />
+
+    <TextView
+        android:text="Localidad"
+        android:textSize="18sp"
+        android:id="@+id/textLocalidad_DetallesPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelLocalidad_DetallesPunto"
+        android:layout_margin="5dp"
+        />
+
+
+
+    <TextView
+        android:text="Municipio: "
+        android:id="@+id/labelMunicipio_DetallesPunto"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textLocalidad_DetallesPunto"
+        />
+
+    <TextView
+        android:text="Municipio"
+        android:textSize="18sp"
+        android:id="@+id/textMunicipio_DetallesPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelMunicipio_DetallesPunto"
+        android:layout_margin="5dp"
+        />
+
+
+
+    <TextView
+        android:text="Estado: "
+        android:id="@+id/lableEstado_DetallesPunto"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textMunicipio_DetallesPunto"
+        />
+
+    <TextView
+
+        android:text="Estado"
+        android:textSize="18sp"
+        android:id="@+id/textEstado_DetallesPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lableEstado_DetallesPunto"
+        android:layout_margin="5dp"
+
+        />
+
+
+    <TextView
+        android:text="Codigo Postal: "
+        android:id="@+id/labelCodigoPostal_DetallesPunto"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textEstado_DetallesPunto"
+        />
+
+    <TextView
+        android:text="CodigoPostal"
+        android:textSize="18sp"
+        android:id="@+id/textCodigoPostal_DetallesPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelCodigoPostal_DetallesPunto"
+        android:layout_margin="5dp"
+        />
+
+
+    <TextView
+
+        android:text="Estatus"
+        android:id="@+id/labelEstatus_DetallesPunto"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textCodigoPostal_DetallesPunto"
+        />
+
+    <TextView
+        android:text="Estado"
+        android:textSize="18sp"
+        android:id="@+id/textEstatus_DetallesPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelEstatus_DetallesPunto"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+
+        android:text="Iniciar Encuesta"
+        android:id="@+id/botonIniciarEncuesta_DetallesPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEstatus_DetallesPunto"
+        android:layout_centerHorizontal="true"
+
+        />
+
+</RelativeLayout>
+</ScrollView>

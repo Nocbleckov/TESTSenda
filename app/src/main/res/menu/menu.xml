@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/misRutas"
+            android:checked="false"
+            android:title="Mis Rutas"
+            android:icon="@mipmap/mispuntos"
+            android:visible="true"
+            />
+        <item
+            android:id="@+id/miInfo"
+            android:checked="false"
+            android:title="Mi Informacion"
+            android:visible="true"
+            android:icon="@mipmap/minfo"
+            />
+        <item
+            android:id="@+id/editarRuta"
+            android:checked="false"
+            android:title="Editar Ruta"
+            android:visible="true"
+            android:icon="@mipmap/editar"
+            />
+        <item
+            android:id="@+id/guardarMapas"
+            android:checked="false"
+            android:title="Guardar Mapa (offline)"
+            android:visible="true"
+            android:icon="@mipmap/dwmap"
+            />
+    </group>
+</menu>

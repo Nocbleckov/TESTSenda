@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="70dp"
+    android:background="#464646"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imagenPerfil"
+        android:src="@drawable/logo_senda"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:border_color="#000000"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:text="Nombre Usuario"
+        android:id="@+id/nombreUsuario"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingBottom="4dp"
+        android:layout_above="@+id/correoUsuario"
+        android:layout_alignLeft="@+id/imagenPerfil"
+        android:layout_alignStart="@+id/imagenPerfil"
+        android:textColor="#cccccc"
+        />
+
+    <TextView
+
+        android:text="Email Usuario"
+        android:textSize="16sp"
+        android:id="@+id/correoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/nombreUsuario"
+        android:layout_alignStart="@+id/nombreUsuario"
+        android:textColor="#cccccc"
+
+        />
+
+
+
+
+</RelativeLayout>
